@@ -33,12 +33,16 @@ export default function Project({ name, status, data, linkToParfolio, linkToFull
 			</div>
 			{isOpen && 
 			<div className="py-2 p-3">
-				<p className={isPartfolioCopy ? "text-[14px] my-1 text-gray-600 italic" : "text-[14px] my-1"} onClick={copyParfolioLink}>Link to partfolio: {linkToParfolio}</p>
+				<p className={isPartfolioCopy ? "text-[14px] my-1 text-gray-600 italic" : "text-[14px] my-1 w-full"} onClick={copyParfolioLink}>Link to partfolio: {linkToParfolio.slice(0, 30)}</p>
 				{isPartfolioCopy && <p className="text-center bg-green-500/40 text-white rounded-2xl text-[11px]">Copied!</p>}
-				<p className={isFullCopy ? "text-[14px] my-1 text-gray-500 italic" : "text-[14px] my-1"} onClick={copyFullLink}>Link to Full: {linkToFull}</p>
+				<p className={isFullCopy ? "text-[14px] my-1 text-gray-500 italic" : "text-[14px] my-1"} onClick={copyFullLink}>Link to Full: {linkToFull.slice(0, 30)}</p>
 				{isFullCopy && <p className="text-center bg-green-500/40 text-white rounded-2xl text-[11px]">Copied!</p>}
 				<p className="text-end text-black/60 text-[12px] py-3">{data}</p>
-				<button onClick={() => setIsOpen(false)} className="text-center w-full bg-red-600/40 p-2 rounded-xl text-white">Close</button>
+				<button onClick={() => {
+					setIsOpen(false)
+					setIsPartfolioCopy(false)
+					setIsFullCopy(false)
+					}} className="text-center w-full bg-red-600/40 p-2 rounded-xl text-white">Close</button>
 			</div>}
 		</section>
 	)
