@@ -20,9 +20,9 @@ const DATA = [
   {
     id: 3,
     name: "LWork_15",
-    status: "In Progress",
+    status: "Draft",
     data: "12.07.26",
-    linkToPortfolio: "Draft",
+    linkToPortfolio: "",
     linkToFull:
       "https://drive.google.com/drive/folders/1wWqM12SoU6bNhyMRsL9eMGZt2cC1anPM?usp=sharing",
   },
