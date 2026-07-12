@@ -22,7 +22,7 @@ const DATA = [
     name: "LWork_15",
     status: "In Progress",
     data: "12.07.26",
-    linkToPortfolio: "",
+    linkToPortfolio: "Draft",
     linkToFull:
       "https://drive.google.com/drive/folders/1wWqM12SoU6bNhyMRsL9eMGZt2cC1anPM?usp=sharing",
   },
