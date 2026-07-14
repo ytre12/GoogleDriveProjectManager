@@ -10,7 +10,7 @@ const DATA = [
   },
   {
     id: 2,
-    name: "LWork_14",
+    name: "LWork (RAB)",
     status: "In Progress",
     data: "12.07.26",
     linkToPortfolio: "",
@@ -19,8 +19,8 @@ const DATA = [
   },
   {
     id: 3,
-    name: "LWork_15",
-    status: "Draft",
+    name: "Furry bird",
+    status: "In Progress",
     data: "12.07.26",
     linkToPortfolio: "",
     linkToFull:
