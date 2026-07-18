@@ -11,7 +11,7 @@ const DATA = [
   {
     id: 2,
     name: "LWork (RAB)",
-    status: "In Progress",
+    status: "Complited",
     data: "12.07.26",
     linkToPortfolio: "",
     linkToFull:
