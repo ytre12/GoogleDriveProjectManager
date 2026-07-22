@@ -11,7 +11,7 @@ const DATA = [
   {
     id: 4,
     name: "Dama Roza",
-    status: "In Progress",
+    status: "Complited",
     data: "19.07.26",
     linkToPortfolio: "",
     linkToFull:
